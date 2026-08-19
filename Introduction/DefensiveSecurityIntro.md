@@ -1,3 +1,4 @@
+
 # 🔍 Investigation Report: 
 Date: 08/15/2026  |  Platform: TryHackMe  |  Room: Defensive Security Intro |  Difficulty: Beginner  |  Tools Used: Monitoring Dashboard
 
