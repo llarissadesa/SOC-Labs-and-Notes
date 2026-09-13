@@ -13,13 +13,13 @@ The goal of this room was to identify security weaknesses in the **FakeBank** we
 ### Step 1
 Open the terminal and run **dirb** with bank's URL to find hidden pages.
 ### Step 2
-Pages found: http://fakebank.thm/images and http://fakebank.thm/bank-transfer
+Pages found.
 ### Step 3
-Go to the URL http://fakebank.thm/bank-transfer, enter the account number, and deposit money. After depositing, go back to the account page and check the amount.
+Go to the URL, enter the account number, and deposit money. After depositing, go back to the account page and check the amount.
 
 
 ## :shield: Conclusion
-The investigation showed that the FakeBank application suffers from Broken Access Control and relies on Security through Obscurity. Using a directory brute-force tool made it possible to discover hidden sensitive endpoints (**/bank-transfer**) that lack proper authentication checks. As a result, an aunauthenticated user can access financial functions and perform unauthorized money transfers without logging in.
+The investigation showed that the FakeBank application suffers from Broken Access Control and relies on Security through Obscurity. Using a directory brute-force tool made it possible to discover hidden sensitive endpoints that lack proper authentication checks. As a result, an aunauthenticated user can access financial functions and perform unauthorized money transfers without logging in.
 
 
 ## Recommended actions
