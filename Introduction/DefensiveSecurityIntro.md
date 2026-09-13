@@ -12,7 +12,7 @@ The goal of this room was to help an apprentice SOC analyst identify and investi
 ### Step 1
 Open the monitoring dashboard and review the recent alerts to spot the suspicious activity on the network.
 ### Step 2
-Identify the attacker's source IP address (32.122.195.63) from the alert logs.
+Identify the attacker's source IP address from the alert logs.
 ### Step 3
 Access the "URL Discovery Attempts" list to analyze the attacker's history and see which hidden pages they are rapidly trying to access.
 ### Step 4
@@ -20,7 +20,7 @@ Examine the latest entry in the "URL Discovery Attempts" list to identify the sp
 ### Step 5
 Navigate to the practical security actions panel where firewall and access control rules are managed.
 ### Step 6
-Enter the IP 32.122.195.63 into the "Add Firewall Rule" field, "Block" from the dropdown menu, and click "Apply" to contain the threat.
+Enter the IP into the "Add Firewall Rule" field, "Block" from the dropdown menu, and click "Apply" to contain the threat.
 
 
 ## :shield: Conclusion 
