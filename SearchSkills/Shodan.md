@@ -11,7 +11,7 @@ Check the web server's IP address using TryScanMe.
 
 ## :detective: Investigation step-by-step
 ### Step 1
-Search for Apache on TryScanMe. Click on the first row and check which domain uses the IP 185.243.115.47.
+Search for Apache on TryScanMe. Click on the first row and check which domain uses the IP.
 
 ### Step 2
 The domain found was trychackme.thm.
